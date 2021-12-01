@@ -16,9 +16,8 @@ int main() {
 			minpeople = i+1;
 		}
 	}
-	//cout
+	// cout
 	cout << "Avg: " << total/times << endl;
 	cout << "Max Seat number: " << maxpeople << " scores: " << max << endl;
 	cout << "Min Seat number: " << minpeople << " scores: " << min << endl;
 } 
-
