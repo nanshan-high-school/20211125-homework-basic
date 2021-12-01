@@ -21,3 +21,4 @@ int main() {
 	cout << "Max Seat number: " << maxpeople << " scores: " << max << endl;
 	cout << "Min Seat number: " << minpeople << " scores: " << min << endl;
 } 
+
