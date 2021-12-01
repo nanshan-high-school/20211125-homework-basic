@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int member = 0;
+  double total = 0;
+  int max=0, min=100;
+  int maxP, minP;
+  int score = 0, i = 0;
+  cout << "please input the number of members:";
+  cin >> member;
+  for (i = 0 ; i < member ; i++) {
+    int score = 0;
+    cout << "please input number " << i+1 << "'s score:";
+    cin >> score;
+    total += score;
+    if (max <= score) {
+      max = score;
+      maxP = i + 1;
+    }
+    if (min >= score) {
+      min = score;
+      minP = i + 1;
+    }
+  }
+  while(max==score){
+      cout << i+2;
+      break;
+    }
+    while(min==score){
+      cout << i+2;
+      break;
+    }
+  cout << "average = " << total/(double)member << "\n";
+  cout << "min person = " << minP << " min=" << min << "\n";
+  cout << "max person = " << maxP << " max=" << max << "\n";
+}
