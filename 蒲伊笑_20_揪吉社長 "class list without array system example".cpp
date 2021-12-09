@@ -21,7 +21,6 @@ void compare(int i) {
     }
 }
 
-using namespace std;
 int main() {
     int average = 0;
     int amount;
